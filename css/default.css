@@ -6,7 +6,7 @@ html, body {
 }
 
 /* link colors */
-a { color: #f06060; }
+a { color: #FF7F3F; }
 a:hover, a:active { color: #333; }
 
 /* content wrap */
@@ -29,13 +29,15 @@ a:hover, a:active { color: #333; }
     margin: 10px;
     padding: 10px;
 }
-#nav .nav { margin: 0; }
+#nav .nav { margin: 0; text-transform: uppercase;}
 #nav .btn { margin: 0; padding: 0; }
 #nav .active a,
 #nav .active a:hover,
 #nav .active a:focus {
-    background-color: #f06060;
+    background-color: #72B1C8;
+    padding: 50px 25px 20px;
     color: #fff;
+    margin: -40px 0;
 }
 
 /* Carosel */
@@ -52,7 +54,7 @@ a:hover, a:active { color: #333; }
     width: 100%;
 }
 #myCarousel .carousel-caption {
-    background: #f06060;
+    background: #FF7F3F;
     color: #fff;
     left: auto;
     opacity: .8;
@@ -87,7 +89,7 @@ a:hover, a:active { color: #333; }
 }
 
 #notice {
-    background-color: #f06060;
+    background-color: #FF7F3F;
     color: #fff;
     font-size: 21px;
     margin: 15px 0 0;
@@ -100,7 +102,7 @@ a:hover, a:active { color: #333; }
 
 /* Button style */
 .btn {
-    background: #f06060;
+    background: #FF7F3F;
     border: none;
     color: #fff;
     font-family: inherit;
@@ -119,7 +121,7 @@ a:hover, a:active { color: #333; }
 }
 .btn:hover,
 .btn:active {
-    color: #f06060;
+    color: #FF7F3F;
 }
 
 /* Social Buttons */
