@@ -34,6 +34,13 @@ a:hover, a:active { color: #333; }
 #nav .active a,
 #nav .active a:hover,
 #nav .active a:focus {
+    background-color: mintcream;
+    color: #462C21;
+}
+
+#nav .appt a,
+#nav .appt a:hover,
+#nav .appt a:focus {
     background-color: #72B1C8;
     padding: 50px 25px 20px;
     color: #fff;
