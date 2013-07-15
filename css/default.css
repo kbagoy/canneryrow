@@ -66,10 +66,10 @@ a:hover, a:active { color: #333; }
     padding: 25px;
     text-align: center;
 }
-.content h2 { margin-top: 0; }
+.content h2 { margin-top: 0; text-transform: uppercase;}
 .content li { list-style-position: inside; }
 @media (min-width: 768px) {
-    .content { text-align: left; }
+    .content { text-align: left; margin-top: 15px;}
     .content .col1 { width: 48.9%; float: left; clear: left; }
     .content .col2 { width: 48.9%; float: right; clear: right; }
     .content .contact { text-align: left; }
@@ -88,7 +88,7 @@ a:hover, a:active { color: #333; }
     background-color: #f06060;
     color: #fff;
     font-size: 21px;
-    margin: 0;
+    margin: 15px 0 0;
     text-align: center;
 }
 #notice a {
