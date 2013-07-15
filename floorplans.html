@@ -130,9 +130,10 @@
     <script src="js/jquery.maphilight.min.js"></script>
     <script>
     $('img[usemap]').maphilight({ fillColor: 'FF0000', fillOpacity: 0.3, stroke: false });
-    $('area').hover(function () {
+    $('area').click(function (evt) {
         var src = $(this).attr('href');
         $('.floorplan').attr('src', src);
+        evt.preventDefault();
     });
     </script>
 </body>
