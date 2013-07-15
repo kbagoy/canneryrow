@@ -89,6 +89,12 @@ a:hover, a:active { color: #333; }
 @media (max-width: 960px) {
     .cta .btn { float: none; width: 90%; }
 }
+.content .col1 li { padding: 10px 0;}
+.content .col1 li.col1{ width: 24.9%; float: left; clear: left; }
+.content .col1 li.col2 { width: 74.9%; float: right; clear: right; }
+.content .col2 li { padding: 10px 0;}
+.content .col2 li.col1{ width: 24.9%; float: left; clear: left; }
+.content .col2 li.col2 { width: 74.9%; float: right; clear: right; }
 
 .content h1 {
     margin-top: 0;
