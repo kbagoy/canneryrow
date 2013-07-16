@@ -82,6 +82,11 @@ a:hover, a:active { color: #333; }
     text-decoration: underline;
 }
 
+#footer {
+    margin-top: 1em;
+    text-align: center;
+}
+
 /* Button style */
 .btn {
     background: #FF7F3F;
