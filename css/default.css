@@ -181,11 +181,14 @@ opacity: .5;
 
 /* floorplans modal */
 #floorplans-modal .modal-body {
-    height: 700px;
-    max-height: 700px;
+    max-height: none;
 }
 #floorplans-modal .item {
+    min-height: 530px;
     text-align: center;
+}
+#floorplans-modal .item img {
+    display: inline;
 }
 
 /* embedded instagram */
