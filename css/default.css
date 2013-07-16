@@ -43,19 +43,9 @@ a:hover, a:active { color: #333; }
 }
 
 #nav a:hover {
-background-color: #84B39B;
-color: #FFF;
-opacity: .5;
-}
-
-#nav .appt a,
-#nav .appt a:hover,
-#nav .appt a:focus {
-    background-color: #FF7F3F;
-    opacity: .8;
-    padding: 50px 25px 20px;
-    color: #fff;
-    margin: -40px 0;
+    background-color: #84B39B;
+    color: #FFF;
+    opacity: .5;
 }
 
 /* Carosel */
@@ -242,6 +232,16 @@ opacity: .5;
     .content .contact { text-align: left; }
     .content .contact .map { float: left; margin-right: 1.5em; }
     .content li { list-style-position: outside; }
+
+    #nav .appt a,
+    #nav .appt a:hover,
+    #nav .appt a:focus {
+        background-color: #FF7F3F;
+        opacity: .8;
+        padding: 50px 25px 20px;
+        color: #fff;
+        margin: -40px 0;
+    }
 
     #neighborhood .links li {
         clear: none;
