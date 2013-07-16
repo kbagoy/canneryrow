@@ -15,13 +15,13 @@
 <body>
 
     <div id="wrapper">
-        <h1 id="logo" class="hide-text pull-left">Cannery Row</h1>
+        <h1 id="logo" class="pull-left"><a href="index.html" class="hide-text">Cannery Row</a></h1>
 
         <div id="nav" class="pull-right">
             <a class="btn hidden-desktop" data-toggle="collapse" data-target=".nav-collapse">Menu</a>
             <div class="nav-collapse collapse">
                 <ul class="nav nav-pills">
-                    <li><a href="#">Pick Your Place</a></li>
+                    <li class="active"><a href="floorplans.html">Pick Your Place</a></li>
                     <li><a href="amenities.html">Shared Spaces</a></li>
                     <li><a href="neighborhood.html">Neighborhood</a></li>
                     <li class="appt"><a href="#">Make An Appointment</a></li>
@@ -63,6 +63,7 @@
         <div class="content">
             <h2 class="col1">Floorplans</h2>
             <p class="col2">Cannery Row Sherwood:  Studio Apartments, 1 Bedroom Apartments, 2 bedroom Apartments, 3 bedroom Apartment &amp; Townhome apartments with open floorplans. Amenities include:</p>
+
             <ul class="col2">
                 <li class="col1">9 - 10’ ceilings</li>
                 <li class="col2">Energy Star Appliances</li>
@@ -75,10 +76,12 @@
                 <li class="col1">Storage</li>
                 <li class="col2">Tub/ Shower Combo</li>
             </ul>
+
             <div class="cta col2">
-                <button class="btn btn-1 btn-1c" id="grn" type="button" href="#">View Availability</button>
+                <button class="btn btn-1 btn-1c grn" type="button" href="#">View Availability</button>
                 <button class="btn btn-1 btn-1c" href="#">Apply Now</button>
             </div>
+
             <div class="col1">
                 <img src="img/level1-floorplans.png" alt="" usemap="#level1-floorplans" />
                 <map name="level1-floorplans">
@@ -107,6 +110,7 @@
                     <area href="img/townhome-1.jpg" shape="poly" coords="25, 24, 113, 24, 113, 69, 99, 69, 99, 62, 25, 62" />
                 </map>
             </div>
+
             <div class="col2">
                 <img class="floorplan" src="img/placeholder.png" alt="">
             </div>
@@ -114,24 +118,18 @@
         </div>
 
         <h2 id="notice">Opening in September! Call or <a href="#">schedule a tour</a>.</h2>
-            <div id="contact-sm">
-                <ul class="inline text-center" style="margin-top:10px;">
-                    <li>22550 Highland Drive Sherwood, Or 97140 |</li>
-                    <li><abbr title="Phone">P:</abbr>(503) 555-1212 |</li>
-                    <li><a href="mailto:info@livecanneryrow.com">info@livecanneryrow.com |</a></li>
-                    <li><button class="btn fb sm" type="button" href="#"><i class="icon-facebook"></i></button></li>
-                    <li><button class="btn twi sm" type="button" href="#"><i class="icon-twitter"></i></button></li>
-                    <li><button class="btn flk sm" type="button" href="#"><i class="icon-flickr"></i></button></li>
-                </ul>
-            </div>
 
         <div id="footer">
-            <p style="text-align:center;">Managed by Riverstone Residential | ©2013, Cannery Row Apartments - Sherwood, Oregon | Resident Portal</p>
-
+            <p id="contact-sm">22550 Highland Drive Sherwood, Or 97140
+                | <abbr title="Phone">P:</abbr>(503) 555-1212
+                | <a href="mailto:info@livecanneryrow.com">info@livecanneryrow.com</a>
+                | <button class="btn fb sm" type="button" href="#"><i class="icon-facebook"></i></button>
+                <button class="btn twi sm" type="button" href="#"><i class="icon-twitter"></i></button>
+                <button class="btn flk sm" type="button" href="#"><i class="icon-flickr"></i></button></p>
+            <p>Managed by Riverstone Residential | © 2013, Cannery Row Apartments - Sherwood, Oregon | Resident Portal</p>
         </div>
 
     </div>
-
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script src="js/jquery.maphilight.min.js"></script>
