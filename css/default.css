@@ -110,7 +110,7 @@ opacity: .5;
 }
 
 #notice {
-    background-color: #345E6F;
+    background-color: #FF7F3F;
     color: #fff;
     font-size: 21px;
     margin: 16px 0 0;
@@ -201,10 +201,28 @@ color: #84B39B;
     padding: 0 5px;
 }
 
+#contact-sm {
+    font-size: 18px;
+    color: white;
+}
+
+#contact-sm a{
+
+    color: white;
+}
 
 #instagram iframe {
     background-color: #EEEEE7;
     padding: 15px;
     margin: 15px;
+    text-align: center;
+}
+
+#floorplans-modal .modal-body {
+    height: 700px;
+    max-height: 700px;
+}
+
+#floorplans-modal .item {
     text-align: center;
 }

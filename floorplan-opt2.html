@@ -22,8 +22,8 @@
             <div class="nav-collapse collapse">
                 <ul class="nav nav-pills">
                     <li><a href="#">Pick Your Place</a></li>
-                    <li class="active"><a href="#">Shared Spaces</a></li>
-                    <li><a href="#">Neighborhood</a></li>
+                    <li><a href="amenities.html">Shared Spaces</a></li>
+                    <li><a href="neighborhood.html">Neighborhood</a></li>
                     <li class="appt"><a href="#">Make An Appointment</a></li>
                 </ul>
             </div>
@@ -62,46 +62,95 @@
 
         <div class="content">
             <h2 class="col1">Shared Spaces</h2>
-            <p class="col2">Cannery Row Apartments offer  eco-friendly living with modern amenities and is focused on building a thriving neighborhood culture.</p>
-            <div class="details col2">
-            <ul>
-                <li class="col1">Located in the Heart of Old Town Sherwood</li>
-                <li class="col2">Resident lounge with kitchen and flat-screen TV</li>
-                <li class="col1">Healthy eco-friendly living environment</li>
-                <li class="col2">Complimentary wi-fi in common areas</li>
-                <li class="col1">Fully equipped fitness center</li>
-                <li class="col2">Energy Star Appliances</li>
-                <li class="col1">On-Site Maintenance</li>
-                <li class="col2">On-Site Management</li>
-
-                <li class="col1">Concierge Services</li>
-                <li class="col2">Pet friendly</li>
-                <li class="col2">Recycling</li>
-                <li class="col1">Reserved parking</li>
-                <li class="col1">Bicycle parking &amp; repair facilities</li>
-            </ul>
-</div>
-        <div class="details col1" id="instagram">
-                <!-- SnapWidget -->
-                <iframe src="http://snapwidget.com/in/?u=a2JhZ295fGlufDEwMHwzfDJ8fG5vfDV8bm9uZQ==" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:315px; height: 210px" ></iframe>
-        </div>
-            <div class="cta col2">
-                <button class="btn btn-1 btn-1c" type="button" href="#">View Availability</button>
+            <p class="col2">Cannery Row Sherwood:  Studio Apartments, 1 Bedroom Apartments, 2 bedroom Apartments, 3 bedroom Apartment &amp; Townhome apartments with open floorplans.</p>
+            <div class="col2">
+                <h4>Every Apartment Home Features:</h4>
+                <ul>
+                    <li class="col1">9 - 10’ ceilings</li>
+                    <li class="col2">Energy Star Appliances</li>
+                    <li class="col1">Granite Countertops</li>
+                    <li class="col2">Large Operable Windows</li>
+                    <li class="col1">Balconies Available</li>
+                    <li class="col2">Garbage Disposals</li>
+                    <li class="col1">Washer/Dryer</li>
+                    <li class="col2">Modern Kitchens</li>
+                    <li class="col1">Storage</li>
+                    <li class="col2">Tub/ Shower Combo</li>
+                </ul>
+            </div>
+                        <div class="cta col2">
+                <button class="btn btn-1 btn-1c" id="grn" type="button" href="#">View Availability</button>
                 <button class="btn btn-1 btn-1c" href="#">Apply Now</button>
+            </div>
+            <div class="clearfix"></div>
+            <div class="text-center">
+            <ul class="unstyled inline">
+                <li><h4>Studio</h4>
+                <a href="img/studio.jpg" data-toggle="modal" data-target="#floorplans-modal"><img src="img/studio.jpg"/></a></li>
+                <li><h4>1 Bedroom 1 Bath</h4>
+                <a href="img/1BR1BA-f.jpg" data-toggle="modal" data-target="#floorplans-modal"><img src="img/1BR1BA.jpg"/></a></li>
+                <li><h4>1+ Bedroom 1 Bath</h4>
+                <a href="img/1BRplus1BA.jpg" data-toggle="modal" data-target="#floorplans-modal"><img src="img/1BRplus1BA.jpg"/></a></li>
+                <li><h4>2 Bedroom 1 Bath</h4>
+                <a href="img/2BD1BA.jpg" data-toggle="modal" data-target="#floorplans-modal"><img src="img/2BD1BA.jpg"/></a></li>
+                <li><h4>2 Bedroom 2 Bath</h4>
+                <a href="img/2BD2BA.jpg" data-toggle="modal" data-target="#floorplans-modal"><img src="img/2BD2BA.jpg"/></a></li>
+                <li><h4>3 Bedroom 2 Bath</h4>
+                <a href="img/3BD2BA.jpg" data-toggle="modal" data-target="#floorplans-modal"><img src="img/3BD2BA.jpg"/></a></li>
+                <li><h4>Townhome</h4>
+                <a href="img/townhome-f.jpg" data-toggle="modal" data-target="#floorplans-modal"><img src="img/townhome-1.jpg"/></a></li>
+            </ul>
+        </div>
+            <div id="floorplans-modal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3>Floorplans</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="floorplans-carousel" class="carousel slide" data-interval="false">
+                        <div class="carousel-inner">
+                            <div class="item active" id="studio">
+                                <img src="img/studio.jpg" alt="Studio">
+                            </div>
+                            <div class="item" id="1B">
+                                <img src="img/1BR1BA-f.jpg" alt="1 Bedroom">
+                            </div>
+                            <div class="item" id="1B+">
+                                <img src="img/1BRplus1BA.jpg" alt="1 Bedroom Plus">
+                            </div>
+                            <div class="item" id="2B">
+                                <img src="img/2BD1BA.jpg" alt="2 Bedroom">
+                            </div>
+                            <div class="item" id="2B2">
+                                <img src="img/2BD2BA.jpg" alt="2 Bedroom 2 Bath">
+                            </div>
+                            <div class="item" id="3B2">
+                                <img src="img/3BD2BA.jpg" alt="3 Bedroom 2 Bath">
+                            </div>
+                            <div class="item" id="TH">
+                                <img src="img/townhome-f.jpg" alt="1 Bedroom 1.5 Bath Townhome">
+                            </div>
+                        </div>
+                        <a class="carousel-control left" href="#floorplans-carousel" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#floorplans-carousel" data-slide="next">&rsaquo;</a>
+                    </div>
+                </div>
             </div>
 
         </div>
 
         <h2 id="notice">Opening in September! Call or <a href="#">schedule a tour</a>.</h2>
 
-        <ul class="inline text-center" id="contact sm" style="margin-top:10px;">
-            <li>22550 Highland Drive Sherwood, Or 97140 |</li>
-            <li><abbr title="Phone">P:</abbr>(503) 555-1212 |</li>
-            <li><a href="mailto:info@livecanneryrow.com">info@livecanneryrow.com |</a></li>
-            <li><button class="btn fb sm" type="button" href="#"><i class="icon-facebook"></i></button></li>
-            <li><button class="btn twi sm" type="button" href="#"><i class="icon-twitter"></i></button></li>
-            <li><button class="btn flk sm" type="button" href="#"><i class="icon-flickr"></i></button></li>
-        </ul>
+            <div id="contact-sm">
+                <ul class="inline text-center" style="margin-top:10px;">
+                    <li>22550 Highland Drive Sherwood, Or 97140 |</li>
+                    <li><abbr title="Phone">P:</abbr>(503) 555-1212 |</li>
+                    <li><a href="mailto:info@livecanneryrow.com">info@livecanneryrow.com</a>   | </li>
+                    <li><button class="btn fb sm" type="button" href="#"><i class="icon-facebook"></i></button></li>
+                    <li><button class="btn twi sm" type="button" href="#"><i class="icon-twitter"></i></button></li>
+                    <li><button class="btn flk sm" type="button" href="#"><i class="icon-flickr"></i></button></li>
+                </ul>
+            </div>
 
         <div id="footer">
             <p style="text-align:center;">Managed by Riverstone Residential | ©2013, Cannery Row Apartments - Sherwood, Oregon | Resident Portal</p>
