@@ -3,10 +3,11 @@ html, body {
     background-size: cover;
     font-family: 'Questrial', sans-serif;
     height: 100%;
+    color: #345E6F;
 }
 
 /* link colors */
-a { color: #FF7F3F; }
+a { color: #345E6F; }
 a:hover, a:active { color: #333; }
 
 /* content wrap */
@@ -17,7 +18,7 @@ a:hover, a:active { color: #333; }
 
 /* Logo */
 #logo {
-    background: url(../img/cannery-row-logo.png) 0 0 no-repeat;
+    background: url(../img/cannery-row-apartments-logo.png) 0 0 no-repeat;
     height: 37px;
     margin: 20px 30px 17px;
     width: 175px;
@@ -38,10 +39,17 @@ a:hover, a:active { color: #333; }
     color: #462C21;
 }
 
+#nav a:hover {
+background-color: #84B39B;
+color: #FFF;
+opacity: .5;
+}
+
 #nav .appt a,
 #nav .appt a:hover,
 #nav .appt a:focus {
-    background-color: #72B1C8;
+    background-color: #FF7F3F;
+    opacity: .8;
     padding: 50px 25px 20px;
     color: #fff;
     margin: -40px 0;
@@ -61,7 +69,7 @@ a:hover, a:active { color: #333; }
     width: 100%;
 }
 #myCarousel .carousel-caption {
-    background: #FF7F3F;
+    background: #84B39B;
     color: #fff;
     left: auto;
     opacity: .8;
@@ -77,7 +85,7 @@ a:hover, a:active { color: #333; }
     padding: 25px;
     text-align: center;
 }
-.content h2 { margin-top: 0; text-transform: uppercase;}
+.content h2 { margin-top: 0; text-transform: uppercase; color: #FF7F3F;}
 .content li { list-style-position: inside; }
 @media (min-width: 768px) {
     .content { text-align: left; margin-top: 15px;}
@@ -102,12 +110,13 @@ a:hover, a:active { color: #333; }
 }
 
 #notice {
-    background-color: #FF7F3F;
+    background-color: #345E6F;
     color: #fff;
     font-size: 21px;
-    margin: 15px 0 0;
+    margin: 16px 0 0;
     text-align: center;
     text-transform: uppercase;
+    padding: 5px 0;
 }
 #notice a {
     color: #fff;
@@ -134,6 +143,16 @@ a:hover, a:active { color: #333; }
     transition: background 0.3s, color 0.3s;
     text-shadow: none;
 }
+#grn {
+background: #84B39B;
+color: #FFF;
+}
+
+#grn:hover {
+background: #efefef;
+color: #84B39B;
+}
+
 .btn:hover,
 .btn:active {
     color: #FF7F3F;

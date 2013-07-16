@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
 				"font",
 				"font-weight"
 			],
@@ -32,10 +40,6 @@
 				"background-color"
 			],
 			[
-				"padding",
-				"padding-bottom"
-			],
-			[
 				"h",
 				"hero"
 			],
@@ -51,14 +55,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "floorplans.html",
-			"settings":
-			{
-				"buffer_size": 8573,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -84,9 +80,11 @@
 	},
 	"file_history":
 	[
-		"/Users/kbagoy/Desktop/canneryrow/css/default.css",
-		"/Users/kbagoy/Desktop/canneryrow/floorplans.html",
 		"/Users/kbagoy/Desktop/canneryrow/index.html",
+		"/Users/kbagoy/Desktop/canneryrow/floorplans.html",
+		"/Users/kbagoy/Desktop/canneryrow/neighborhood.html",
+		"/Users/kbagoy/Desktop/canneryrow/amenities.html",
+		"/Users/kbagoy/Desktop/canneryrow/css/default.css",
 		"/Users/kbagoy/Dropbox/Curtis/floorplans-1",
 		"/Users/kbagoy/Dropbox/Design/Cannery-Row/floorplans-1",
 		"/Users/kbagoy/Dropbox/Design/Cannery-Row/test-map.html",
@@ -138,6 +136,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"home",
+			"floor",
 			"btn fb",
 			"FEATURED PROFILES",
 			"img-circle",
@@ -180,37 +180,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "floorplans.html",
-					"settings":
-					{
-						"buffer_size": 8573,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -270,6 +241,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 192.0,
 	"status_bar_visible": true
 }
