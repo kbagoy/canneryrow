@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="amenities">
+<html lang="en" id="floorplans">
 <head>
     <meta charset="utf-8">
     <title>Live At Cannery Row</title>
@@ -21,7 +21,7 @@
             <a class="btn hidden-desktop" data-toggle="collapse" data-target=".nav-collapse">Menu</a>
             <div class="nav-collapse collapse">
                 <ul class="nav nav-pills">
-                    <li><a href="#">Pick Your Place</a></li>
+                    <li class="active"><a href="floorplans.html">Pick Your Place</a></li>
                     <li><a href="amenities.html">Shared Spaces</a></li>
                     <li><a href="neighborhood.html">Neighborhood</a></li>
                     <li class="appt"><a href="#">Make An Appointment</a></li>
@@ -87,7 +87,7 @@
 
             <div class="clearfix"></div>
 
-            <ul id="floorplans" class="unstyled inline text-center">
+            <ul id="floorplan-links" class="unstyled inline text-center">
                 <li><h4>Studio</h4>
                     <a href="img/studio.jpg"><img src="img/studio.jpg"/></a></li>
                 <li><h4>1 Bedroom 1 Bath</h4>
@@ -158,9 +158,9 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
     <script>
-    $('#floorplans a').click(function (evt) {
+    $('#floorplan-links a').click(function (evt) {
         evt.preventDefault();
-        var i = $('#floorplans a').index(this);
+        var i = $('#floorplan-links a').index(this);
         $('#floorplans-carousel').carousel(i);
         $('#floorplans-modal').modal();
     });
