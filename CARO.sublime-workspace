@@ -1,0 +1,275 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"s",
+				"sans-serif"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bag",
+				"background-color"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"h",
+				"hero"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"field",
+				"fieldset	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "floorplans.html",
+			"settings":
+			{
+				"buffer_size": 8573,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kbagoy/Desktop/canneryrow/css/default.css",
+		"/Users/kbagoy/Desktop/canneryrow/floorplans.html",
+		"/Users/kbagoy/Desktop/canneryrow/index.html",
+		"/Users/kbagoy/Dropbox/Curtis/floorplans-1",
+		"/Users/kbagoy/Dropbox/Design/Cannery-Row/floorplans-1",
+		"/Users/kbagoy/Dropbox/Design/Cannery-Row/test-map.html",
+		"/Users/kbagoy/Downloads/flatstrap-master/README.md",
+		"/Users/kbagoy/Desktop/wikisway/templates/accounts/home.html",
+		"/Users/kbagoy/Downloads/FlatUI-Free/Useful Links! (How To).txt",
+		"/Users/kbagoy/Dropbox/Flat-UI/css/flat-ui.css",
+		"/private/var/folders/h9/sh0w4v6902j8t4_3pshxbwb40000gn/T/fz3temp-1/web.config",
+		"/private/var/folders/h9/sh0w4v6902j8t4_3pshxbwb40000gn/T/fz3temp-1/development.config",
+		"/private/var/folders/h9/sh0w4v6902j8t4_3pshxbwb40000gn/T/fz3temp-1/DotNetNuke.vstemplate",
+		"/private/var/folders/h9/sh0w4v6902j8t4_3pshxbwb40000gn/T/fz3temp-1/Default.aspx.vb",
+		"/private/var/folders/h9/sh0w4v6902j8t4_3pshxbwb40000gn/T/fz3temp-1/SiteMap.aspx",
+		"/Users/kbagoy/Downloads/webpaint-html/template/multipage/style.css",
+		"/Users/kbagoy/Desktop/home.html",
+		"/Users/kbagoy/Dropbox/Design/OOH/•FTP-ophope-ftp-login",
+		"/Users/kbagoy/Desktop/ophope-ftp-login",
+		"/Users/kbagoy/Dropbox/Design/Cannery-Row/LiveAtCanneryRow.com/index.html",
+		"/Users/kbagoy/Desktop/functions.php",
+		"/Users/kbagoy/Desktop/home-template.html",
+		"/Users/kbagoy/Dropbox/Design/Cannery-Row/google-fonts.txt",
+		"/Users/kbagoy/Desktop/wikisway2.5/css/base.css",
+		"/Users/kbagoy/Desktop/wikisway/templates/index.html",
+		"/Users/kbagoy/Desktop/graphalchemist/css/main.css",
+		"/Users/kbagoy/Desktop/graphalchemist/thanks.html",
+		"/Users/kbagoy/Desktop/graphalchemist/index.html",
+		"/Users/kbagoy/Desktop/graphAlchemist.com/css/bootstrap.css",
+		"/Users/kbagoy/Desktop/graphAlchemist.com/index.html",
+		"/Users/kbagoy/Desktop/graphAlchemist.com/css/main.css",
+		"/Users/kbagoy/Dropbox/WIKISWAY/•Kate/Data/Sample_FreebaseMoviedata.json",
+		"/Users/kbagoy/Dropbox/WIKISWAY/•Kate/Data/MVP_Sample_APIdata.json",
+		"/Users/kbagoy/Desktop/wikisway/templates/graph/fb_graph.json",
+		"/Users/kbagoy/Desktop/Wikisway.html",
+		"/Users/kbagoy/Desktop/wikisway2.0/press.html",
+		"/Users/kbagoy/Dropbox/WIKISWAY/user-scenarios.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"btn fb",
+			"FEATURED PROFILES",
+			"img-circle",
+			"h1",
+			"facebook",
+			"#graph ",
+			"#graph",
+			"logo",
+			"</li>",
+			"<li>",
+			"</span>",
+			"<p",
+			"</p>",
+			"<p",
+			"</p>",
+			"<p class=\"p2\">",
+			"<p class=\"p1\">",
+			"<li class=\"li1\">",
+			"</span>",
+			"<span class=\"s1\">",
+			"span",
+			"controls-row ",
+			"control",
+			"p",
+			"h1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "floorplans.html",
+					"settings":
+					{
+						"buffer_size": 8573,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
