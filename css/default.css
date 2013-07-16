@@ -18,9 +18,12 @@ a:hover, a:active { color: #333; }
 
 /* Logo */
 #logo {
-    background: url(../img/cannery-row-apartments-logo.png) 0 0 no-repeat;
-    height: 37px;
     margin: 20px 30px 17px;
+}
+#logo a {
+    background: url(../img/cannery-row-apartments-logo.png) 0 0 no-repeat;
+    display: block;
+    height: 37px;
     width: 175px;
 }
 
