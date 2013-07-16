@@ -18,9 +18,12 @@ a:hover, a:active { color: #333; }
 
 /* Logo */
 #logo {
-    background: url(../img/cannery-row-apartments-logo.png) 0 0 no-repeat;
-    height: 37px;
     margin: 20px 30px 17px;
+}
+#logo a {
+    background: url(../img/cannery-row-apartments-logo.png) 0 0 no-repeat;
+    display: block;
+    height: 37px;
     width: 175px;
 }
 
@@ -40,19 +43,9 @@ a:hover, a:active { color: #333; }
 }
 
 #nav a:hover {
-background-color: #84B39B;
-color: #FFF;
-opacity: .5;
-}
-
-#nav .appt a,
-#nav .appt a:hover,
-#nav .appt a:focus {
-    background-color: #FF7F3F;
-    opacity: .8;
-    padding: 50px 25px 20px;
-    color: #fff;
-    margin: -40px 0;
+    background-color: #84B39B;
+    color: #FFF;
+    opacity: .5;
 }
 
 /* Carosel */
@@ -77,38 +70,6 @@ opacity: .5;
     width: 33%;
 }
 
-/* content layout */
-.content {
-    background: #fff;
-    background: rgba(255, 255, 255, 0.9);
-    overflow: hidden;
-    padding: 25px;
-    text-align: center;
-}
-.content h2 { margin-top: 0; text-transform: uppercase; color: #FF7F3F;}
-.content li { list-style-position: inside; }
-@media (min-width: 768px) {
-    .content { text-align: left; margin-top: 15px;}
-    .content .col1 { width: 48.9%; float: left; clear: left; }
-    .content .col2 { width: 48.9%; float: right; clear: right; }
-    .content .contact { text-align: left; }
-    .content .contact img { float: left; margin-right: 1.5em; }
-    .content li { list-style-position: outside; }
-
-}
-@media (max-width: 960px) {
-    .cta .btn { float: none; width: 90%; }
-}
-
-#links li { padding: 10px 0;}
-#links li.col1{ width: 24.9%; float: left; clear: left; }
-#links li.col2 { width: 74.9%; float: right; clear: right; }
-
-.content h1 {
-    margin-top: 0;
-    text-transform: uppercase;
-}
-
 #notice {
     background-color: #FF7F3F;
     color: #fff;
@@ -121,6 +82,19 @@ opacity: .5;
 #notice a {
     color: #fff;
     text-decoration: underline;
+}
+
+/* footer */
+#footer {
+    margin-top: 1em;
+    text-align: center;
+}
+#contact-sm {
+    font-size: 18px;
+    color: white;
+}
+#contact-sm a{
+    color: white;
 }
 
 /* Button style */
@@ -143,19 +117,17 @@ opacity: .5;
     transition: background 0.3s, color 0.3s;
     text-shadow: none;
 }
-#grn {
-background: #84B39B;
-color: #FFF;
-}
-
-#grn:hover {
-background: #efefef;
-color: #84B39B;
-}
-
 .btn:hover,
 .btn:active {
     color: #FF7F3F;
+}
+.btn.grn {
+    background: #84B39B;
+    color: #FFF;
+}
+.btn.grn:hover {
+    background: #efefef;
+    color: #84B39B;
 }
 
 /* Social Buttons */
@@ -191,7 +163,6 @@ color: #84B39B;
     background: #e6e6e6;
     color: #f50099;
 }
-
 .btn.twi.sm,
 .btn.fb.sm,
 .btn.flk.sm {
@@ -201,16 +172,19 @@ color: #84B39B;
     padding: 0 5px;
 }
 
-#contact-sm {
-    font-size: 18px;
-    color: white;
+/* floorplans modal */
+#floorplans-modal .modal-body {
+    max-height: none;
+}
+#floorplans-modal .item {
+    min-height: 530px;
+    text-align: center;
+}
+#floorplans-modal .item img {
+    display: inline;
 }
 
-#contact-sm a{
-
-    color: white;
-}
-
+/* embedded instagram */
 #instagram iframe {
     background-color: #EEEEE7;
     padding: 15px;
@@ -218,11 +192,65 @@ color: #84B39B;
     text-align: center;
 }
 
-#floorplans-modal .modal-body {
-    height: 700px;
-    max-height: 700px;
+/* content layout */
+.content {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+    padding: 25px;
+    text-align: center;
+}
+.content h1 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.content h2 { margin-top: 0; text-transform: uppercase; color: #FF7F3F;}
+.content li { list-style-position: inside; }
+
+#neighborhood .links {
+    clear: both;
+    padding: 1em 0;
+    text-align: left;
+}
+#neighborhood .links li {
+    clear: both;
+    margin: 0.5em 2% 0.5em 0;
+    overflow: hidden;
+}
+#neighborhood .links li>a {
+    float: left;
+}
+#neighborhood .links li>p {
+    margin-left: 85px;
 }
 
-#floorplans-modal .item {
-    text-align: center;
+/* overrides for tablet size and up */
+@media (min-width: 768px) {
+    .content { text-align: left; margin-top: 15px;}
+    .content .col1 { width: 48.9%; float: left; clear: left; }
+    .content .col2 { width: 48.9%; float: right; clear: right; }
+    .content .contact { text-align: left; }
+    .content .contact .map { float: left; margin-right: 1.5em; }
+    .content li { list-style-position: outside; }
+
+    #nav .appt a,
+    #nav .appt a:hover,
+    #nav .appt a:focus {
+        background-color: #FF7F3F;
+        opacity: .8;
+        padding: 50px 25px 20px;
+        color: #fff;
+        margin: -40px 0;
+    }
+
+    #neighborhood .links li {
+        clear: none;
+        float: left;
+        width: 48%;
+    }
+}
+
+/* overrides for larger screens */
+@media (max-width: 960px) {
+    .cta .btn { float: none; width: 90%; }
 }
