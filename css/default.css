@@ -69,38 +69,6 @@ a:hover, a:active { color: #333; }
     width: 33%;
 }
 
-/* content layout */
-.content {
-    background: #fff;
-    background: rgba(255, 255, 255, 0.9);
-    overflow: hidden;
-    padding: 25px;
-    text-align: center;
-}
-.content h2 { margin-top: 0; text-transform: uppercase;}
-.content li { list-style-position: inside; }
-@media (min-width: 768px) {
-    .content { text-align: left; margin-top: 15px;}
-    .content .col1 { width: 48.9%; float: left; clear: left; }
-    .content .col2 { width: 48.9%; float: right; clear: right; }
-    .content .contact { text-align: left; }
-    .content .contact .map { float: left; margin-right: 1.5em; }
-    .content li { list-style-position: outside; }
-
-}
-@media (max-width: 960px) {
-    .cta .btn { float: none; width: 90%; }
-}
-
-#links li { padding: 10px 0;}
-#links li.col1{ width: 24.9%; float: left; clear: left; }
-#links li.col2 { width: 74.9%; float: right; clear: right; }
-
-.content h1 {
-    margin-top: 0;
-    text-transform: uppercase;
-}
-
 #notice {
     background-color: #FF7F3F;
     color: #fff;
@@ -172,7 +140,6 @@ a:hover, a:active { color: #333; }
     background: #e6e6e6;
     color: #f50099;
 }
-
 .btn.twi.sm,
 .btn.fb.sm,
 .btn.flk.sm {
@@ -182,10 +149,63 @@ a:hover, a:active { color: #333; }
     padding: 0 5px;
 }
 
-
+/* embedded instagram */
 #instagram iframe {
     background-color: #EEEEE7;
     padding: 15px;
     margin: 15px;
     text-align: center;
+}
+
+/* content layout */
+.content {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+    overflow: hidden;
+    padding: 25px;
+    text-align: center;
+}
+.content h1 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.content h2 { margin-top: 0; text-transform: uppercase;}
+.content li { list-style-position: inside; }
+
+#neighborhood .details ul {
+    clear: both;
+    padding: 1em 0;
+    text-align: left;
+}
+#neighborhood .details li {
+    clear: both;
+    margin: 0.5em 2% 0.5em 0;
+    overflow: hidden;
+}
+#neighborhood .details li>a {
+    float: left;
+}
+#neighborhood .details li>p {
+    margin-left: 85px;
+}
+
+/* overrides for tablet size and up */
+@media (min-width: 768px) {
+    .content { text-align: left; margin-top: 15px;}
+    .content .col1 { width: 48.9%; float: left; clear: left; }
+    .content .col2 { width: 48.9%; float: right; clear: right; }
+    .content .contact { text-align: left; }
+    .content .contact .map { float: left; margin-right: 1.5em; }
+    .content li { list-style-position: outside; }
+
+    #neighborhood .details li {
+        clear: none;
+        float: left;
+        width: 48%;
+    }
+}
+
+/* overrides for larger screens */
+@media (max-width: 960px) {
+    .cta .btn { float: none; width: 90%; }
 }
