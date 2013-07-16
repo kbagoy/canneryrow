@@ -211,20 +211,20 @@ opacity: .5;
 .content h2 { margin-top: 0; text-transform: uppercase; color: #FF7F3F;}
 .content li { list-style-position: inside; }
 
-#neighborhood .details ul {
+#neighborhood .links {
     clear: both;
     padding: 1em 0;
     text-align: left;
 }
-#neighborhood .details li {
+#neighborhood .links li {
     clear: both;
     margin: 0.5em 2% 0.5em 0;
     overflow: hidden;
 }
-#neighborhood .details li>a {
+#neighborhood .links li>a {
     float: left;
 }
-#neighborhood .details li>p {
+#neighborhood .links li>p {
     margin-left: 85px;
 }
 
@@ -237,7 +237,7 @@ opacity: .5;
     .content .contact .map { float: left; margin-right: 1.5em; }
     .content li { list-style-position: outside; }
 
-    #neighborhood .details li {
+    #neighborhood .links li {
         clear: none;
         float: left;
         width: 48%;
