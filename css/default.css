@@ -229,7 +229,7 @@ a:hover, a:active { color: #333; }
     .content { text-align: left; margin-top: 15px;}
     .content .col1 { width: 48.9%; float: left; clear: left; }
     .content .col2 { width: 48.9%; float: right; clear: right; }
-    .content .contact { text-align: left; }
+    .content .contact { margin-top: 20px; text-align: left; }
     .content .contact .map { float: left; margin-right: 1.5em; }
     .content li { list-style-position: outside; }
 
