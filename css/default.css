@@ -1,6 +1,5 @@
 html, body {
-    background: url(../img/wood-background.jpg) center center no-repeat fixed;
-    background-size: cover;
+    background-color: #faf0e6;
     font-family: 'Questrial', sans-serif;
     height: 100%;
     color: #345E6F;
@@ -93,10 +92,6 @@ a:hover, a:active { color: #333; }
 }
 #contact-sm {
     font-size: 18px;
-    color: white;
-}
-#contact-sm a{
-    color: white;
 }
 
 /* Button style */
@@ -229,6 +224,7 @@ a:hover, a:active { color: #333; }
 /* overrides for smartphones */
 @media (max-width: 767px) {
     body { padding-left: 0; padding-right: 0; }
+    .content h2 { font-size: 28px; }
 }
 
 /* overrides for tablet size and up */
