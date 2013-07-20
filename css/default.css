@@ -36,13 +36,13 @@ a:hover, a:active { color: #333; }
 }
 #nav .nav { margin: 0; text-transform: uppercase;}
 #nav .btn { margin: 0; padding: 0; }
+#nav li { white-space: nowrap; }
 #nav .active a,
 #nav .active a:hover,
 #nav .active a:focus {
     background-color: mintcream;
     color: #462C21;
 }
-
 #nav a:hover {
     background-color: #84B39B;
     color: #FFF;
@@ -225,6 +225,7 @@ a:hover, a:active { color: #333; }
 @media (max-width: 767px) {
     body { padding-left: 0; padding-right: 0; }
     .content h2 { font-size: 28px; }
+    #instagram iframe { max-width: 205px; }
 }
 
 /* overrides for tablet size and up */
@@ -235,9 +236,22 @@ a:hover, a:active { color: #333; }
     .content .col1 { width: 48.9%; float: left; clear: left; }
     .content .col2 { width: 48.9%; float: right; clear: right; }
     .content .contact { margin-top: 20px; text-align: left; }
-    .content .contact .map { float: left; margin-right: 1.5em; }
     .content li { list-style-position: outside; }
 
+    #neighborhood .links li {
+        clear: none;
+        float: left;
+        width: 48%;
+    }
+}
+
+/* overrides for small desktop and below */
+@media (max-width: 979px) {
+    .cta .btn { width: 90%; }
+}
+
+/* overrides for larger screens */
+@media (min-width: 980px) {
     #nav .appt a,
     #nav .appt a:hover,
     #nav .appt a:focus {
@@ -248,14 +262,5 @@ a:hover, a:active { color: #333; }
         margin: -40px 0;
     }
 
-    #neighborhood .links li {
-        clear: none;
-        float: left;
-        width: 48%;
-    }
-}
-
-/* overrides for larger screens */
-@media (max-width: 960px) {
-    .cta .btn { float: none; width: 90%; }
+    .content .contact .map { float: left; margin-right: 1.5em; }
 }
