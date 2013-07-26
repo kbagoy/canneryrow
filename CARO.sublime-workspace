@@ -59,11 +59,47 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 375.0,
 		"selected_items":
 		[
+			[
+				"brac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"tab",
+				"Snippet: Bootstrap tabbable navigation tabs"
+			],
+			[
+				"button",
+				"Snippet: Bootstrap inverse button"
+			],
+			[
+				"sni",
+				"Snippet: Bootstrap small link button"
+			],
+			[
+				"tw",
+				"Snippet: Bootstrap basic two column grid"
+			],
+			[
+				"packa",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"pa",
+				"Package Control: Discover Packages"
+			]
 		],
-		"width": 0.0
+		"width": 507.0
 	},
 	"console":
 	{
@@ -80,6 +116,13 @@
 	},
 	"file_history":
 	[
+		"/Users/katesuzanne/Desktop/canneryrow/index.html",
+		"/Users/katesuzanne/Desktop/Keyboard Shortcuts",
+		"/Users/katesuzanne/Desktop/canneryrow/floorplans.html",
+		"/Users/katesuzanne/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/katesuzanne/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/katesuzanne/Library/Application Support/Sublime Text 2/Packages/User/JSON.sublime-settings",
+		"/Users/katesuzanne/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
 		"/Users/kbagoy/Desktop/canneryrow/index.html",
 		"/Users/kbagoy/Desktop/canneryrow/floorplans.html",
 		"/Users/kbagoy/Desktop/canneryrow/neighborhood.html",
@@ -129,6 +172,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -136,6 +180,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"highl",
+			"side bar",
+			"folder",
+			"theme",
 			"home",
 			"floor",
 			"btn fb",
@@ -191,7 +239,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
