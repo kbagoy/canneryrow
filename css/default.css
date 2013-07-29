@@ -74,7 +74,7 @@ a:hover, a:active { color: #333; }
 }
 
 #notice {
-    background-color: #FF7F3F;
+    background-color: #345E6F;
     color: #fff;
     font-size: 21px;
     margin: 16px 0 0;
@@ -92,8 +92,11 @@ a:hover, a:active { color: #333; }
     margin-top: 1em;
     text-align: center;
 }
+#footer #mgmt{
+    font-size: 12px;
+}
 #contact-sm {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 /* Button style */
@@ -258,7 +261,7 @@ a:hover, a:active { color: #333; }
     #nav .appt a,
     #nav .appt a:hover,
     #nav .appt a:focus {
-        background-color: #FF7F3F;
+        background-color: #345E6F;
         opacity: .8;
         padding: 50px 25px 20px;
         color: #fff;
