@@ -2,11 +2,11 @@ html, body {
     background-color: #faf0e6;
     font-family: 'museo', sans-serif;
     height: 100%;
-    color: #345E6F;
+    color: #345e6f;
 }
 
 /* link colors */
-a { color: #345E6F; }
+a { color: #345e6f; }
 a:hover, a:active { color: #333; }
 
 /* content wrap */
@@ -20,7 +20,7 @@ a:hover, a:active { color: #333; }
 #nav {
     margin: 10px;
     padding: 5px;
-    background: white;
+    background: #fff;
 }
 #nav .nav { margin: 0; text-transform: uppercase;}
 #nav .btn { margin: 0; padding: 0; }
@@ -29,12 +29,11 @@ a:hover, a:active { color: #333; }
 #nav .active a:hover,
 #nav .active a:focus {
     background-color: transparent;
-    color: #84B39B;
+    color: #84b39b;
 }
 #nav a:hover {
-    background-color: #84B39B;
-    color: #FFF;
-    opacity: .5;
+    background-color: #c2d9cd;
+    color: #fff;
 }
 
 /* Carosel */
@@ -51,7 +50,7 @@ a:hover, a:active { color: #333; }
     width: 100%;
 }
 #myCarousel .carousel-caption {
-    background: #84B39B;
+    background: #84b39b;
     color: #fff;
     text-align: center;
     left: auto;
@@ -62,7 +61,7 @@ a:hover, a:active { color: #333; }
 }
 
 #notice {
-    background-color: #84B39B;
+    background-color: #84b39b;
     color: #fff;
     font-size: 21px;
     margin: 16px 0 0;
@@ -89,7 +88,7 @@ a:hover, a:active { color: #333; }
 
 /* Button style */
 .btn {
-    background: #FF7F3F;
+    background: #ff7f3f;
     border: none;
     color: #fff;
     font-family: inherit;
@@ -109,15 +108,15 @@ a:hover, a:active { color: #333; }
 }
 .btn:hover,
 .btn:active {
-    color: #FF7F3F;
+    color: #ff7f3f;
 }
 .btn.grn {
-    background: #84B39B;
-    color: #FFF;
+    background: #84b39b;
+    color: #fff;
 }
 .btn.grn:hover {
     background: #efefef;
-    color: #84B39B;
+    color: #84b39b;
 }
 
 /* Social Buttons */
@@ -176,7 +175,7 @@ a:hover, a:active { color: #333; }
 
 /* embedded instagram */
 #instagram iframe {
-    background-color: #EEEEE7;
+    background-color: #eeeee7;
     padding: 15px;
     margin: 15px;
     text-align: center;
@@ -231,7 +230,7 @@ a:hover, a:active { color: #333; }
 /* overrides for smartphones */
 @media (max-width: 767px) {
     body { padding-left: 0; padding-right: 0; }
-    #logo { text-align: center; text-shadow: 3px 3px 3px #FFF;}
+    #logo { text-align: center; }
     #notice { font-size: 15px; }
     .content h2 { font-size: 28px; }
     #instagram iframe { max-width: 205px; }
@@ -257,6 +256,7 @@ a:hover, a:active { color: #333; }
 
 /* overrides for small desktop and below */
 @media (max-width: 979px) {
+    #logo { text-shadow: -3px 3px 0px #fff; }
     .cta .btn { width: 90%; }
 }
 
@@ -283,11 +283,11 @@ a:hover, a:active { color: #333; }
     #nav .appt a,
     #nav .appt a:hover,
     #nav .appt a:focus {
-        background-color: #FF7F3F;
-        opacity: .8;
-        padding: 50px 25px 20px;
+        background-color: #ff7f3f;
+        background-color: rgba(255, 127, 63, 0.8);
+        padding: 25px 25px 20px 25px;
         color: #fff;
-        margin: -40px 0;
+        margin: -15px 0 -10px 0;
     }
 
     .content .contact .map { float: left; margin-right: 1.5em; }
