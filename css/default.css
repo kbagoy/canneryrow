@@ -266,8 +266,9 @@ a:hover, a:active { color: #333; }
     #logo {
         height: 356px;
         left: 15px;
+        margin: 0;
         position: absolute;
-        top: 50px;
+        top: 40px;
         width: 71px;
     }
     #logo a {
