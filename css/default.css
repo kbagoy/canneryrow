@@ -19,7 +19,8 @@ a:hover, a:active { color: #333; }
 /* Navigation Style */
 #nav {
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
+    background: white;
 }
 #nav .nav { margin: 0; text-transform: uppercase;}
 #nav .btn { margin: 0; padding: 0; }
@@ -52,10 +53,12 @@ a:hover, a:active { color: #333; }
 #myCarousel .carousel-caption {
     background: #84B39B;
     color: #fff;
+    text-align: center;
     left: auto;
     opacity: .8;
     text-transform: uppercase;
     width: 33%;
+    padding: 5px 10px;
 }
 
 #notice {
@@ -120,7 +123,7 @@ a:hover, a:active { color: #333; }
 /* Social Buttons */
 .btn.twi,
 .btn.fb,
-.btn.flk {
+.btn.ins {
     margin: 0;
     min-height: 32px;
     min-width: 32px;
@@ -142,17 +145,17 @@ a:hover, a:active { color: #333; }
     background: #e6e6e6;
     color: #42559d;
 }
-.btn.flk {
-    background: #f50099;
+.btn.ins {
+    background: #427097;
 }
-.btn.flk:hover,
-.btn.flk:active {
+.btn.ins:hover,
+.btn.ins:active {
     background: #e6e6e6;
-    color: #f50099;
+    color: #427097;
 }
 .btn.twi.sm,
 .btn.fb.sm,
-.btn.flk.sm {
+.btn.ins.sm {
     margin: 0;
     min-height: 25px;
     min-width: 25px;
@@ -267,7 +270,7 @@ a:hover, a:active { color: #333; }
     #nav .appt a,
     #nav .appt a:hover,
     #nav .appt a:focus {
-        background-color: #345E6F;
+        background-color: #FF7F3F;
         opacity: .8;
         padding: 50px 25px 20px;
         color: #fff;
