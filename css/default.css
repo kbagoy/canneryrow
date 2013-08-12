@@ -203,7 +203,7 @@ a:hover, a:active { color: #333; }
     margin-top: 0;
     text-transform: uppercase;
 }
-.content h2 { margin-top: 0; text-transform: uppercase; color: #FF7F3F;}
+.content h2 { margin-top: 0; text-transform: uppercase;}
 .content li { list-style-position: inside; }
 
 #neighborhood .links {
@@ -226,7 +226,7 @@ a:hover, a:active { color: #333; }
 /* overrides for smartphones */
 @media (max-width: 767px) {
     body { padding-left: 0; padding-right: 0; }
-    #logo { text-align: center; }
+    #logo { text-align: center; text-shadow: 3px 3px 3px #FFF;}
     #notice { font-size: 15px; }
     .content h2 { font-size: 28px; }
     #instagram iframe { max-width: 205px; }
