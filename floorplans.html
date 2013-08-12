@@ -64,15 +64,15 @@
                 <div class="content">
                     <h2 class="col1">Floorplans</h2>
                     <div class="col1" id="thumbs">
-                        <ul class="thumbnails" id="floorplan-links">
-                        <li><a href="img/unit_studio.png"><p>studio</p><img src="img/unit_studio_tmb.png"/></a></li>
-                        <li><a href="img/unit_1A.png"><p>1 bedroom</p><img src="img/unit_1A_tmb.png"/></a></li>
-                        <li><a href="img/unit_2C.png"><p>2 bedroom</p><img src="img/unit_2C_tmb.png"/></a></li>
-                        <li><a href="img/unit_3A.png"><p>3 bedroom</p><img src="img/unit_3A_tmb.png"/></a></li>
-                        <li><a href="img/unit_townhome.png"><p>townhomes</p><img src="img/unit_townhome_tmb.png"/></a></li>
-                    </ul>
-                       
+                        <ul class="unstyled" id="floorplan-links">
+                            <li><a href="img/unit_studio.png"><p>studio</p><img src="img/unit_studio_tmb.png"/></a></li>
+                            <li><a href="img/unit_1A.png"><p>1 bedroom</p><img src="img/unit_1A_tmb.png"/></a></li>
+                            <li><a href="img/unit_2C.png"><p>2 bedroom</p><img src="img/unit_2C_tmb.png"/></a></li>
+                            <li><a href="img/unit_3A.png"><p>3 bedroom</p><img src="img/unit_3A_tmb.png"/></a></li>
+                            <li><a href="img/unit_townhome.png"><p>townhomes</p><img src="img/unit_townhome_tmb.png"/></a></li>
+                        </ul>
                     </div>
+
                     <p class="col2">Cannery Row Sherwood:  Studio Apartments, 1 Bedroom Apartments, 2 bedroom Apartments, 3 bedroom Apartments &amp; Townhome apartments with open floorplans.</p>
                     <div class="col2">
                         <ul>
@@ -218,10 +218,10 @@
             <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
             <script>
             $('#floorplan-links a').click(function (evt) {
-            evt.preventDefault();
-            var i = $('#floorplan-links a').index(this);
-            $('#floorplans-carousel').carousel(i);
-            $('#floorplans-modal').modal();
+                evt.preventDefault();
+                var i = $('#floorplans-carousel img[src$="' + $(this).attr('href') + '"]').parent('.item').index();
+                $('#floorplans-carousel').carousel(i);
+                $('#floorplans-modal').modal();
             });
             </script>
         </body>
