@@ -29,7 +29,7 @@ a:hover, a:active { color: #333; }
 #nav .active a:hover,
 #nav .active a:focus {
     background-color: transparent;
-    color: #462C21;
+    color: #84B39B;
 }
 #nav a:hover {
     background-color: #84B39B;
@@ -62,7 +62,7 @@ a:hover, a:active { color: #333; }
 }
 
 #notice {
-    background-color: #345E6F;
+    background-color: #84B39B;
     color: #fff;
     font-size: 21px;
     margin: 16px 0 0;
@@ -181,13 +181,22 @@ a:hover, a:active { color: #333; }
     margin: 15px;
     text-align: center;
 }
+/* floorplans thumbs */
+#thumbs {
+    background-color: #EEEEE7;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    width:350px;
+    height: 280px;
+}
 
 /* content layout */
 .content {
     background: #fff;
     background: rgba(255, 255, 255, 0.9);
     overflow: hidden;
-    padding: 25px;
+    padding: 25px 25px 10px 25px;
     text-align: center;
 }
 .content h1 {
