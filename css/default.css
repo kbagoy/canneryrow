@@ -181,14 +181,19 @@ a:hover, a:active { color: #333; }
     margin: 15px;
     text-align: center;
 }
+
 /* floorplans thumbs */
 #thumbs {
-    background-color: #EEEEE7;
-    padding: 15px;
-    margin: 15px;
+    background-color: #eeeee7;
+    overflow: hidden;
     text-align: center;
-    width:350px;
-    height: 280px;
+}
+#floorplan-links li {
+    display: inline-block;
+    _display: inline;
+    margin: 1em;
+    min-height: 150px;
+    _height: 150px;
 }
 
 /* content layout */
