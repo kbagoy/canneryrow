@@ -181,14 +181,19 @@ a:hover, a:active { color: #333; }
     margin: 15px;
     text-align: center;
 }
+
 /* floorplans thumbs */
 #thumbs {
-    background-color: #EEEEE7;
-    padding: 15px;
-    margin: 15px;
+    background-color: #eeeee7;
+    overflow: hidden;
     text-align: center;
-    width:350px;
-    height: 280px;
+}
+#floorplan-links li {
+    display: inline-block;
+    _display: inline;
+    margin: 1em;
+    min-height: 150px;
+    _height: 150px;
 }
 
 /* content layout */
@@ -266,8 +271,7 @@ a:hover, a:active { color: #333; }
         width: 71px;
     }
     #logo a {
-        background: url(../img/cannery-row-apartments-sign.png) 0 0 no-repeat;
-        background-size: cover;
+        background: url(../img/cannery-row-apartments-sign-sm.png) 0 0 no-repeat;
         display: block;
         height: 100%;
         overflow: hidden;
@@ -287,4 +291,17 @@ a:hover, a:active { color: #333; }
     }
 
     .content .contact .map { float: left; margin-right: 1.5em; }
+}
+
+@media
+only screen and (min-width: 980px) and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-width: 980px) and (   min--moz-device-pixel-ratio: 2),
+only screen and (min-width: 980px) and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (min-width: 980px) and (        min-device-pixel-ratio: 2),
+only screen and (min-width: 980px) and (                min-resolution: 192dpi),
+only screen and (min-width: 980px) and (                min-resolution: 2dppx) {
+    #logo a {
+        background-image: url(../img/cannery-row-apartments-sign.png);
+        background-size: 356px 71px;
+    }
 }
