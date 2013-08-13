@@ -182,12 +182,17 @@ a:hover, a:active { color: #333; }
     text-align: center;
 }
 
+#neighbors .thumbnails {
+    margin: auto;
+}
+
 /* floorplans thumbs */
 #thumbs {
     background-color: #eeeee7;
     overflow: hidden;
     text-align: center;
 }
+
 #floorplan-links li {
     display: inline-block;
     _display: inline;
@@ -195,7 +200,6 @@ a:hover, a:active { color: #333; }
     min-height: 150px;
     _height: 150px;
 }
-
 /* content layout */
 .content {
     background: #fff;
@@ -210,23 +214,6 @@ a:hover, a:active { color: #333; }
 }
 .content h2 { margin-top: 0; text-transform: uppercase;}
 .content li { list-style-position: inside; }
-
-#neighborhood .links {
-    clear: both;
-    padding: 1em 0;
-    text-align: left;
-}
-#neighborhood .links li {
-    clear: both;
-    margin: 0.5em 2% 0.5em 0;
-    overflow: hidden;
-}
-#neighborhood .links li>a {
-    float: left;
-}
-#neighborhood .links li>p {
-    margin-left: 85px;
-}
 
 /* overrides for smartphones */
 @media (max-width: 767px) {
