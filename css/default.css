@@ -62,8 +62,7 @@ a:hover, a:active { color: #333; }
 }
 
 #notice {
-    background-color: #84B39B;
-    color: #fff;
+    color: #FF7F3F;
     font-size: 21px;
     margin: 16px 0 0;
     text-align: center;
@@ -71,7 +70,7 @@ a:hover, a:active { color: #333; }
     padding: 5px 0;
 }
 #notice a {
-    color: #fff;
+    color: #FF7F3F;
     text-decoration: underline;
 }
 
