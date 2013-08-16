@@ -180,8 +180,17 @@ a:hover, a:active { color: #333; }
     text-align: center;
 }
 
-#neighbors .thumbnails {
-    margin: auto;
+#neighbors ul {
+    clear: both;
+    margin: 1.5em auto;
+    text-align: center;
+}
+#neighbors li {
+    display: inline-block;
+    _display: inline;
+    margin: 1.5em;
+    min-height: 100px;
+    _height: 100px;
 }
 
 /* floorplans thumbs */
