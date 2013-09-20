@@ -176,7 +176,7 @@ a:hover, a:active { color: #333; }
     max-height: none;
 }
 #floorplans-modal .item {
-    min-height: 600px; /* should match height of tallest floorplan image */
+    max-height: 600px;
     text-align: center;
 }
 #floorplans-modal .item img {
